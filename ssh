@@ -1,0 +1,6 @@
+Enabling ssh
+> need to enable password authentication in ssh_config and sshd-config 
+goto /etc/ssh
+edit ssh_config and enable PasswordAuthentication yes
+edit sshd_config and enable PasswordAuthentication yes
+then restart the sshd service
